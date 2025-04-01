@@ -41,7 +41,7 @@ public class Quote {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="id")
 	private Long id;
-	@Column(name="code")
+	//@Column(name="code")
 	// Code of the Asset 
 	//private String code;
 	@ManyToOne

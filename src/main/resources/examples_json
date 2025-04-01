@@ -1,0 +1,35 @@
+{
+  "code": "AAPL",
+  "description": "Apple Inc. common stock",
+  "type": "Stock",
+  "sector": "Technology",
+  "market": "NASDAQ",
+  "codeAlt": "US0378331005"
+}
+
+{
+  "code": "MSFT",
+  "description": "Microsoft Corporation common stock",
+  "type": "Stock",
+  "sector": "Technology",
+  "market": "NASDAQ",
+  "codeAlt": "US5949181045"
+}
+
+{
+  "code": "TSLA",
+  "description": "Tesla Inc. common stock",
+  "type": "Stock",
+  "sector": "Automotive",
+  "market": "NASDAQ",
+  "codeAlt": "US88160R1014"
+}
+
+{
+  "code": "GOOGL",
+  "description": "Alphabet Inc. Class A common stock",
+  "type": "Stock",
+  "sector": "Communication Services",
+  "market": "NASDAQ",
+  "codeAlt": "US02079K3059"
+}

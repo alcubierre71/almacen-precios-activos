@@ -12,8 +12,11 @@ import com.universo.almacen.model.Asset;
 public interface AssetRepository extends JpaRepository<Asset, Long> {
 
 	// Obtain Assets order by Code
-	@Query(value="SELECT a FROM Asset a " + 
+	@Query(value="SELECT a FROM asset a " + 
 			" ORDER BY code ASC " )
 	public List<Asset> getAssetOrderCode();
+	
+	// Version automatica hibernate
+	//public List<Asset> findAllByOrderByCodeAsc();
 	
 }

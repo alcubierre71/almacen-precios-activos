@@ -114,7 +114,7 @@ public class AssetManagementControllerImpl implements AssetManagementController 
 
 	
 	@Operation(summary = "Update an existing asset")
-	@PutMapping("/{id}")
+	@PutMapping("/update/{id}")
 	public ResponseEntity<AssetDto> updateAsset(@PathVariable Long id, @Valid @RequestBody AssetDto updatedAssetDto) {
 	    // Ensure the asset exists
 		

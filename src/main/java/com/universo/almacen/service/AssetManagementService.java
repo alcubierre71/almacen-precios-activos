@@ -53,6 +53,7 @@ public class AssetManagementService {
 	public List<Asset> obtainAssetOrderCode() {
 		
 		List<Asset> listAsset = repo.getAssetOrderCode();
+		//List<Asset> listAsset = repo.findAllByOrderByCodeAsc();
 		
 		return listAsset;
 	}

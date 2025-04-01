@@ -12,7 +12,7 @@ import com.universo.almacen.model.Quote;
 public interface QuoteRepository extends JpaRepository<Quote, Long> {
 
 	// Obtain Quote order by date
-	@Query(value="SELECT q FROM Quote q " +
+	@Query(value="SELECT q FROM quote q " +
 			" ORDER BY date ASC " )
 	public List<Quote> getQuoteOrderDate();
 	
