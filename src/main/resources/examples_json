@@ -33,3 +33,31 @@
   "market": "NASDAQ",
   "codeAlt": "US02079K3059"
 }
+
+{
+  "code": "NVDA",
+  "description": "NVIDIA Corporation common stock",
+  "type": "Stock",
+  "sector": "Technology",
+  "market": "NASDAQ",
+  "codeAlt": "US67066G1040"
+}
+
+{
+  "code": "JNJ",
+  "description": "Johnson & Johnson common stock",
+  "type": "Stock",
+  "sector": "Healthcare",
+  "market": "NYSE",
+  "codeAlt": "US4781601046"
+}
+
+{
+  "code": "BRK.A",
+  "description": "Berkshire Hathaway Inc. Class A",
+  "type": "Stock",
+  "sector": "Financial Services",
+  "market": "NYSE",
+  "codeAlt": "US0846701086"
+}
+
