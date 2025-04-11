@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.universo.almacen.controller.AssetManagementController;
@@ -36,7 +37,8 @@ public class AssetManagementControllerImpl implements AssetManagementController 
 
 	// http://localhost:7070/assetpricestore/assetmanagement/
 	@Operation(summary = "List all assets ordered by code")
-	@RequestMapping(value={"/","/list"})
+	//@RequestMapping(value={"/","/list"})
+    @RequestMapping(value = { "/", "/list" }, method = RequestMethod.GET)
 	@Override
 	public List<AssetDto> viewAsset() {
 		// TODO Auto-generated method stub
